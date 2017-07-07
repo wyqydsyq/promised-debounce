@@ -42,3 +42,6 @@ export const debounce = (
 }
 
 export default debounce
+if (window) {
+  window.debounce = debounce 
+}
